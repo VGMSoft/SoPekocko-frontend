@@ -1,9 +1,42 @@
-## Piquante
+<h1 align="center">Welcome to So_Pekocko 👋</h1>
+<img src="images/logo.png" alt="logo So Pekocko"/>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://twitter.com/virgilegug" target="_blank">
+    <img alt="Twitter: virgilegug" src="https://img.shields.io/twitter/follow/virgilegug.svg?style=social" />
+  </a>
+</p>
 
-Le projet a été généré avec [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
+> Site de notation de sauces
 
-Pour faire fonctionner le projet, vous devez installer node-sass à part.
+## Install
 
-## Development server
+```sh
+npm install
+```
 
-Démarrer `ng serve` pour avoir accès au serveur de développement. Rendez-vous sur `http://localhost:4200/`. L'application va se recharger automatiquement si vous modifiez un fichier source.
+## Usage
+
+```sh
+npm run start
+```
+
+## Run tests
+
+```sh
+npm run test
+```
+
+## Author
+
+👤 **Virgile Guglielmi**
+
+* Twitter: [@virgilegug](https://twitter.com/virgilegug)
+* Github: [@VGMSoft](https://github.com/VGMSoft)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
