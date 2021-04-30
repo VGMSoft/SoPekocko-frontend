@@ -39,7 +39,7 @@ node server
 ## Documentation API
 |Verbe|Paramètres|Corps de la demande (le cas échéant)|Type de réponse attendue|Fonction
 |---|---|---|---|---|
-|<img alt="POST" src="https://img.shields.io/badge/-POST-blue"/>|{ email: string, password:string }|{ message: string }| |Chiffre le mot de passe de l'utilisateur, ajoute l'utilisateur à la base de données|
+|<img alt="POST" src="https://img.shields.io/badge/-POST-blue"/>|/api/auth/signup|{ email: string, password:string }|{ message: string }|Chiffre le mot de passe de l'utilisateur, ajoute l'utilisateur à la base de données|
 |<img alt="POST" src="https://img.shields.io/badge/-POST-blue"/>|/api/auth/login|{ email: string, password: string }|{ userId: string, token: string }|Vérifie les informations d'identification de l'utilisateur, en renvoyant l'identifiant userID depuis la base de données et un jeton Web JSON signé(contenant également l'identifiant userID)
 |<img alt="GET" src="https://img.shields.io/badge/-GET-blue"/>|/api/sauces|_|Tableau des sauces|Renvoie le tableau de toutes les sauces dans la base de données|
 |<img alt="GET" src="https://img.shields.io/badge/-GET-blue"/>|/api/sauces/:id|_|Sauce unique|Renvoie la sauce avec l'ID fourni|
